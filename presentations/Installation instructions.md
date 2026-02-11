@@ -75,7 +75,7 @@ Bash
 pip install -r requirements.txt
 ```
 
-**Configuration: Create a file named .env in the backend/ folder and add your credentials:**
+**Configuration: Create a file named .env in the backend/ folder and add your credentials**
 
 Ini, TOML
 OPENAI_API_KEY=sk-your-openai-key-here

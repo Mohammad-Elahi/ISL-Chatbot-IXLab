@@ -1,6 +1,7 @@
 ## ISL Chatbot
+A system designed to collect visitor feedback naturally in exhibition spaces
 
-## Setup
+## Setup & Installation
 
 ## Hardware Requirements
 
@@ -28,13 +29,12 @@ This installation requires the following hardware components:
 
 2. Unity Application
 
-Build the Unity project using the Conversation scene.
-
-Start the built application by running the .exe file.
+* Build the Unity project using the Conversation scene.
+* Start the built application by running the .exe file.
 
 3. Python Backend
 
-Follow the instructions in the **Server** section below to install dependencies and run the backend.
+* Follow the instructions in the **Server** section below to install dependencies and run the backend.
 
 
 # Unity

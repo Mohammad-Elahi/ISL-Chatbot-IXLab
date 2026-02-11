@@ -5,26 +5,26 @@
 ## Hardware Requirements
 
 This installation requires the following hardware components:
--- 32-inch Touchscreen: Main interaction point, connected to the PC in portrait orientation.
--- Camera with Microphone: Mounted above the screen to capture voice input for the speech-to-text system.
--- Projector: Creates a light path on the floor to attract visitors to the Chatbot.
--- Speakers: Audio output for chatbot responses.
--- PC: Running Windows or Linux (see Server prerequisites below).
+* 32-inch Touchscreen: Main interaction point, connected to the PC in portrait orientation.
+* Camera with Microphone: Mounted above the screen to capture voice input for the speech-to-text system.
+* Projector: Creates a light path on the floor to attract visitors to the Chatbot.
+* Speakers: Audio output for chatbot responses.
+* PC: Running Windows or Linux (see Server prerequisites below).
 
 ## System Architecture
 
-*Unity Frontend: Handles particle simulation and animation.
-*Python Backend: Integrates with OpenAI's API for language processing (LLM), speech-to-text (STT), and text-to-speech (TTS).
-*Audio Input: Uses the camera's built-in microphone to capture visitor queries.
+* Unity Frontend: Handles particle simulation and animation.
+* Python Backend: Integrates with OpenAI's API for language processing (LLM), speech-to-text (STT), and text-to-speech (TTS).
+* Audio Input: Uses the camera's built-in microphone to capture visitor queries.
 
 
 ## Installation Steps
 
 1. Hardware Setup
-*Connect the 32-inch touchscreen to the PC and configure it in portrait orientation.
-*Mount the camera above the screen.
-*Position the projector to create the desired floor light path.
-*Connect speakers to the PC.
+* Connect the 32-inch touchscreen to the PC and configure it in portrait orientation.
+* Mount the camera above the screen.
+* Position the projector to create the desired floor light path.
+* Connect speakers to the PC.
 
 2. Unity Application
 

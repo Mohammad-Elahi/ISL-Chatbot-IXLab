@@ -1,4 +1,41 @@
-#Setup & Installation
+#ISL Chatbot
+
+#Setup
+
+## Hardware Requirements
+
+This installation requires the following hardware components:
+*32-inch Touchscreen: Main interaction point, connected to the PC in portrait orientation.
+*Camera with Microphone: Mounted above the screen to capture voice input for the speech-to-text system.
+*Projector: Creates a light path on the floor to attract visitors to the Chatbot.
+*Speakers: Audio output for chatbot responses.
+*PC: Running Windows or Linux (see Server prerequisites below).
+
+## System Architecture
+
+*Unity Frontend: Handles particle simulation and animation.
+*Python Backend: Integrates with OpenAI's API for language processing (LLM), speech-to-text (STT), and text-to-speech (TTS).
+*Audio Input: Uses the camera's built-in microphone to capture visitor queries.
+
+
+## Installation Steps
+
+1. Hardware Setup
+*Connect the 32-inch touchscreen to the PC and configure it in portrait orientation.
+*Mount the camera above the screen.
+*Position the projector to create the desired floor light path.
+*Connect speakers to the PC.
+
+2. Unity Application
+
+Build the Unity project using the Conversation scene.
+
+Start the built application by running the .exe file.
+
+3. Python Backend
+
+Follow the instructions in the **Server** section below to install dependencies and run the backend.
+
 
 # Unity
 
@@ -8,31 +45,28 @@ For building the project, selecting the scene `Conversation` is enough. No furth
 
 The scene setup is more complex and shouldn't be touched if possible. On a high level, it contains an object that has the `ConversationManager` component, with two child components for the agents' postions. It also features an object with the `Player` component, which itself is a parent to the two cameras that are set up for the screens. Another object with the `Display Manager` component is responsible for enabling the rendering to multiple displays.
 
-## Setup
-
-This project needs a PC running Windows or Linux. Starting the built application is as easy as starting the `.exe` file from the build process. Two screens need to be connected to the PC, set up in portrait orientation. The application will render to display 1 and display 2. The UI should be placed on the **outer edges** (language on the left, microphone on the right) of the screens. If that isn't the case, pressing `F2` will swap the displays. This requires an external keyboard.
 
 
 # Server
 
 * Prerequisites: Python 3.9+
 
-**Navigate to the backend directory:**
----
+Navigate to the backend directory:
+```
 Bash
 cd backend
----
+```
 
-**Create a virtual environment:**
+Create a virtual environment:
 ```
 Bash
 python -m venv venv
 ```
 
-# Windows:
+**Windows:**
 venv\Scripts\activate
 
-# Mac/Linux:
+**Mac/Linux:**
 source venv/bin/activate
 
 * Install dependencies:
@@ -51,7 +85,7 @@ OPENAI_MODEL=gpt-4o-mini
 MAX_USER_TURNS=5
 FEEDBACK_LOG_PATH=data/feedback_log.jsonl
 
-**Running the Server**
+**Running the Server:**
 Start the live server using Uvicorn. The Unity client can connect to this address.
 
 Bash

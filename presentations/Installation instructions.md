@@ -1,15 +1,15 @@
-#ISL Chatbot
+## ISL Chatbot
 
-#Setup
+## Setup
 
 ## Hardware Requirements
 
 This installation requires the following hardware components:
-*32-inch Touchscreen: Main interaction point, connected to the PC in portrait orientation.
-*Camera with Microphone: Mounted above the screen to capture voice input for the speech-to-text system.
-*Projector: Creates a light path on the floor to attract visitors to the Chatbot.
-*Speakers: Audio output for chatbot responses.
-*PC: Running Windows or Linux (see Server prerequisites below).
+-- 32-inch Touchscreen: Main interaction point, connected to the PC in portrait orientation.
+-- Camera with Microphone: Mounted above the screen to capture voice input for the speech-to-text system.
+-- Projector: Creates a light path on the floor to attract visitors to the Chatbot.
+-- Speakers: Audio output for chatbot responses.
+-- PC: Running Windows or Linux (see Server prerequisites below).
 
 ## System Architecture
 

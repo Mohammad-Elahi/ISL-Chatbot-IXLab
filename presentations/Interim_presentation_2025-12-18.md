@@ -1,4 +1,4 @@
-## The Experimental Media Lab - Co-lab with Technische Design
+## The Experimental Media Lab 
 
 ## Chatbots in Science Communication
 

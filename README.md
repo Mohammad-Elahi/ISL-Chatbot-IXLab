@@ -1,6 +1,6 @@
 # //Data Spaces - ISL Chatbot
 
-**Members: Mohammad Elahi, Sayandip Srimani, Ruben Pratzka**
+** Team Members: Mohammad Elahi, Sayandip Srimani, Ruben Pratzka**
 
 ---
 

@@ -10,14 +10,14 @@
 * Traditional feedback forms are rarely filled out by visitors.
 * Feedback collection in exhibitions feels unnatural and tedious.
 
-### 💡 Our Solution:
+###  Our Solution:
 * Integrate feedback collection directly into the exhibition experience.
 * Create natural, effortless conversations.
 * Transform feedback into a conversational interaction.
 
 ---
 
-## 🎥 Project Demonstration
+## Project Demonstration
 
 
 
@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/6f78fcf9-164e-4ee3-9bde-819cfb6bfc3e
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### Hardware Requirements
 This installation requires the following hardware components:
@@ -62,7 +62,7 @@ This installation requires the following hardware components:
 
 ---
 
-## 🖥️ Server
+## Server
 
 **Prerequisites:** Python 3.9+
 
@@ -107,7 +107,7 @@ uvicorn main:app --reload
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -118,7 +118,7 @@ uvicorn main:app --reload
 
 ---
 
-## 📊 Data Logging
+##  Data Logging
 All visitor feedback is automatically structured and logged to `data/feedback_log.jsonl`.
 
 **Example Log Entry:**

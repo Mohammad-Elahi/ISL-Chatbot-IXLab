@@ -7,6 +7,11 @@
 ---
 
 **ISL Chatbot: A system designed to collect visitor feedback naturally in exhibition spaces**
+## Demo
+
+https://github.com/user-attachments/assets/6f78fcf9-164e-4ee3-9bde-819cfb6bfc3e
+
+*[click here to view the full HD version on YouTube](https://youtu.be/E7ethBZINgo)*
 
 ###  The Challenge:
 * Traditional feedback forms are rarely filled out by visitors.
@@ -16,17 +21,6 @@
 * Integrate feedback collection directly into the exhibition experience.
 * Create natural, effortless conversations.
 * Transform feedback into a conversational interaction.
-
----
-
-## Demo
-
-
-
-https://github.com/user-attachments/assets/6f78fcf9-164e-4ee3-9bde-819cfb6bfc3e
-
-
-*[click here to view the full HD version on YouTube](https://youtu.be/E7ethBZINgo)*
 
 ---
 
